@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f5f9;
+    color: #222;
+}
+
+header {
+    background: #26408b;
+    color: white;
+    padding: 15px 30px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.box {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #dde2ee;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    padding: 7px;
+    margin-top: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #26408b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b2f69;
+}
+
+button.danger {
+    background: #c0392b;
+}
+
+button.danger:hover {
+    background: #962d22;
+}
+
+form.inline {
+    display: inline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #dde2ee;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #e8ecf6;
+}
+
+.actions a {
+    margin-right: 10px;
+}
+
+.message {
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.message.ok {
+    background: #d4efdf;
+    color: #1e6b3a;
+}
+
+.message.error {
+    background: #f8d7da;
+    color: #8a1c25;
+}
+
+.status {
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.status.active {
+    background: #d4efdf;
+    color: #1e6b3a;
+}
+
+.status.archive {
+    background: #e0e0e0;
+    color: #555;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #dde2ee;
+    border-radius: 6px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.card .number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #26408b;
+}
+
+.total {
+    margin-top: 12px;
+}
